@@ -14,7 +14,9 @@ This project implements a full-stack semantic search system designed to surface 
 
 ## Live Demo (Screenshots)
 
-*Placeholder for UI screenshot showing query input and ranked results with relevance scores.*
+![Search Interface](assets/Demo1.png)
+
+![Search Interface](assets/Demo2.png)
 
 *Placeholder for evaluation dashboard (MRR, NDCG, query‑level analysis).*
 
@@ -186,14 +188,14 @@ Manual relevance judgments (3‑point scale) · MRR · NDCG@5
 git clone https://github.com/yourusername/semantic-search-wikipedia.git
 cd semantic-search-wikipedia
 python -m venv venv
-source venv/bin/activate   # or .\venv\Scripts\activate on Windows
+source venv/bin/activate      # or .\venv\Scripts\activate
 pip install -r requirements.txt
 
-# 2. Download the Simple Wikipedia JSONL (if not included)
-#    Place it at data/simplewiki.jsonl
+# 2. Download Simple Wikipedia data (10k articles, streaming)
+python scripts/download_data.py
 
 # 3. Run the ingestion & indexing pipeline
-python scripts/build_index.py --input data/simplewiki.jsonl --output_dir index/
+python scripts/build_index.py --input data/simplewiki_10k.jsonl --output_dir index/
 
 # 4. Start the FastAPI server
 uvicorn app.main:app --reload --port 8000
