@@ -1,0 +1,554 @@
+{
+  "summary": {
+    "mrr": 0.49166666666666653,
+    "ndcg@5": 0.3480266906169766
+  },
+  "details": [
+    {
+      "query": "machine learning",
+      "precision": 0.2,
+      "reciprocal_rank": 0.5,
+      "ndcg@5": 0.3212043018970804,
+      "retrieved": [
+        "Artificial intelligence_chunk_5",
+        "Artificial intelligence_chunk_2",
+        "Artificial intelligence_chunk_3",
+        "Artificial intelligence_chunk_1",
+        "Artificial intelligence_chunk_10"
+      ]
+    },
+    {
+      "query": "capital of France",
+      "precision": 0.0,
+      "reciprocal_rank": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved": [
+        "Bordeaux_chunk_0",
+        "Bordeaux_chunk_16",
+        "Villeparisis_chunk_0",
+        "Bastille Day_chunk_0",
+        "Bordeaux_chunk_9"
+      ]
+    },
+    {
+      "query": "How was Abraham Lincoln educated?",
+      "precision": 0.4,
+      "reciprocal_rank": 1.0,
+      "ndcg@5": 0.7625024946924551,
+      "retrieved": [
+        "Abraham Lincoln_chunk_2",
+        "Abraham Lincoln_chunk_1",
+        "Abraham Lincoln_chunk_0",
+        "Abraham Lincoln_chunk_5",
+        "Abraham Lincoln (captain)_chunk_0"
+      ]
+    },
+    {
+      "query": "Who were Abraham Lincoln's family members and children?",
+      "precision": 0.4,
+      "reciprocal_rank": 1.0,
+      "ndcg@5": 0.6199062332840657,
+      "retrieved": [
+        "Abraham Lincoln_chunk_1",
+        "Abraham Lincoln_chunk_2",
+        "Abraham Lincoln (captain)_chunk_0",
+        "Jessie Harlan Lincoln_chunk_0",
+        "Abraham Lincoln (captain)_chunk_2"
+      ]
+    },
+    {
+      "query": "What jobs did Abraham Lincoln have before becoming a lawyer?",
+      "precision": 0.4,
+      "reciprocal_rank": 0.3333333333333333,
+      "ndcg@5": 0.4813308059135458,
+      "retrieved": [
+        "Abraham Lincoln_chunk_0",
+        "Abraham Lincoln_chunk_5",
+        "Abraham Lincoln_chunk_2",
+        "Abraham Lincoln_chunk_4",
+        "Abraham Lincoln (captain)_chunk_0"
+      ]
+    },
+    {
+      "query": "What was Abraham Lincoln's early political career like?",
+      "precision": 0.0,
+      "reciprocal_rank": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved": [
+        "Abraham Lincoln_chunk_0",
+        "Abraham Lincoln_chunk_10",
+        "Abraham Lincoln_chunk_1",
+        "Abraham Lincoln_chunk_2",
+        "Abraham Lincoln_chunk_9"
+      ]
+    },
+    {
+      "query": "What were Abraham Lincoln's views on slavery?",
+      "precision": 0.0,
+      "reciprocal_rank": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved": [
+        "Abraham Lincoln_chunk_13",
+        "Abraham Lincoln_chunk_0",
+        "Abraham Lincoln_chunk_11",
+        "Abraham Lincoln_chunk_9",
+        "Abraham Lincoln_chunk_1"
+      ]
+    },
+    {
+      "query": "How did Abraham Lincoln become a lawyer?",
+      "precision": 0.4,
+      "reciprocal_rank": 0.5,
+      "ndcg@5": 0.4035099417625012,
+      "retrieved": [
+        "Abraham Lincoln_chunk_0",
+        "Abraham Lincoln_chunk_5",
+        "Abraham Lincoln_chunk_7",
+        "Abraham Lincoln_chunk_6",
+        "Abraham Lincoln_chunk_1"
+      ]
+    },
+    {
+      "query": "What role did Abraham Lincoln play in the Black Hawk War?",
+      "precision": 0.2,
+      "reciprocal_rank": 0.3333333333333333,
+      "ndcg@5": 0.12103812696590094,
+      "retrieved": [
+        "Abraham Lincoln_chunk_24",
+        "Abraham Lincoln_chunk_28",
+        "Abraham Lincoln_chunk_5",
+        "Albert Sidney Johnston_chunk_0",
+        "Blackadder_chunk_9"
+      ]
+    },
+    {
+      "query": "What was Abraham Lincoln's legal career known for?",
+      "precision": 0.2,
+      "reciprocal_rank": 0.3333333333333333,
+      "ndcg@5": 0.19004688335796713,
+      "retrieved": [
+        "Abraham Lincoln_chunk_0",
+        "Abraham Lincoln_chunk_1",
+        "Abraham Lincoln_chunk_5",
+        "Abraham Lincoln (captain)_chunk_2",
+        "Abraham Lincoln_chunk_2"
+      ]
+    },
+    {
+      "query": "Who was Mary Todd and what was her relationship with Abraham Lincoln?",
+      "precision": 0.4,
+      "reciprocal_rank": 1.0,
+      "ndcg@5": 0.8472668887613066,
+      "retrieved": [
+        "Abraham Lincoln_chunk_3",
+        "Jessie Harlan Lincoln_chunk_0",
+        "Abraham Lincoln_chunk_2",
+        "Abraham Lincoln_chunk_5",
+        "Jessie Harlan Lincoln_chunk_1"
+      ]
+    },
+    {
+      "query": "What events influenced Abraham Lincoln's return to politics in the 1850s?",
+      "precision": 0.0,
+      "reciprocal_rank": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved": [
+        "Abraham Lincoln_chunk_0",
+        "Abraham Lincoln_chunk_10",
+        "Abraham Lincoln_chunk_9",
+        "Abraham Lincoln_chunk_11",
+        "American Civil War_chunk_7"
+      ]
+    },
+    {
+      "query": "What personal tragedies did Abraham Lincoln experience?",
+      "precision": 0.4,
+      "reciprocal_rank": 1.0,
+      "ndcg@5": 0.6552674710241855,
+      "retrieved": [
+        "Abraham Lincoln_chunk_1",
+        "Abraham Lincoln_chunk_5",
+        "Abraham Lincoln_chunk_25",
+        "Abraham Lincoln_chunk_2",
+        "Abraham Lincoln_chunk_26"
+      ]
+    },
+    {
+      "query": "What was Abraham Lincoln's involvement in the U.S. House of Representatives?",
+      "precision": 0.0,
+      "reciprocal_rank": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved": [
+        "Abraham Lincoln_chunk_0",
+        "Abraham Lincoln_chunk_10",
+        "Abraham Lincoln_chunk_9",
+        "American Civil War_chunk_7",
+        "Abraham Lincoln_chunk_11"
+      ]
+    },
+    {
+      "query": "Where was Abraham Lincoln born and raised?",
+      "precision": 0.4,
+      "reciprocal_rank": 1.0,
+      "ndcg@5": 0.8108918607016133,
+      "retrieved": [
+        "Abraham Lincoln_chunk_1",
+        "Abraham Lincoln (captain)_chunk_0",
+        "Abraham Lincoln_chunk_0",
+        "Abraham Lincoln_chunk_2",
+        "Abraham Lincoln (captain)_chunk_2"
+      ]
+    },
+    {
+      "query": "What kind of work did Abraham Lincoln do as a young man?",
+      "precision": 0.4,
+      "reciprocal_rank": 0.5,
+      "ndcg@5": 0.4879324590115489,
+      "retrieved": [
+        "Abraham Lincoln_chunk_5",
+        "Abraham Lincoln_chunk_2",
+        "Abraham Lincoln_chunk_0",
+        "Abraham Lincoln_chunk_1",
+        "Abraham Lincoln (captain)_chunk_2"
+      ]
+    },
+    {
+      "query": "How did Abraham Lincoln gain popularity as a politician?",
+      "precision": 0.0,
+      "reciprocal_rank": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved": [
+        "Abraham Lincoln_chunk_0",
+        "Abraham Lincoln_chunk_10",
+        "Abraham Lincoln_chunk_9",
+        "Abraham Lincoln_chunk_11",
+        "Abraham Lincoln_chunk_1"
+      ]
+    },
+    {
+      "query": "What was Abraham Lincoln's role in debates about slavery expansion?",
+      "precision": 0.0,
+      "reciprocal_rank": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved": [
+        "Abraham Lincoln_chunk_13",
+        "Abraham Lincoln_chunk_0",
+        "Abraham Lincoln_chunk_11",
+        "Abraham Lincoln_chunk_10",
+        "Abraham Lincoln_chunk_9"
+      ]
+    },
+    {
+      "query": "What challenges did Abraham Lincoln face in his early life?",
+      "precision": 0.4,
+      "reciprocal_rank": 1.0,
+      "ndcg@5": 0.8303010754742701,
+      "retrieved": [
+        "Abraham Lincoln_chunk_1",
+        "Abraham Lincoln_chunk_2",
+        "Abraham Lincoln_chunk_0",
+        "Abraham Lincoln_chunk_26",
+        "Abraham Lincoln_chunk_5"
+      ]
+    },
+    {
+      "query": "How did Abraham Lincoln's career shift from manual labor to law?",
+      "precision": 0.2,
+      "reciprocal_rank": 1.0,
+      "ndcg@5": 0.38009376671593426,
+      "retrieved": [
+        "Abraham Lincoln_chunk_2",
+        "Abraham Lincoln_chunk_0",
+        "Abraham Lincoln_chunk_5",
+        "Abraham Lincoln_chunk_1",
+        "Abraham Lincoln_chunk_9"
+      ]
+    },
+    {
+      "query": "What influence did the Kansas-Nebraska Act have on Abraham Lincoln?",
+      "precision": 0.2,
+      "reciprocal_rank": 0.25,
+      "ndcg@5": 0.2713288101595817,
+      "retrieved": [
+        "Abraham Lincoln_chunk_0",
+        "Abraham Lincoln_chunk_9",
+        "Abraham Lincoln_chunk_8",
+        "Abraham Lincoln_chunk_7",
+        "American Civil War_chunk_5"
+      ]
+    },
+    {
+      "query": "What were Abraham Lincoln's key beliefs and values in politics?",
+      "precision": 0.0,
+      "reciprocal_rank": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved": [
+        "Abraham Lincoln_chunk_0",
+        "Abraham Lincoln_chunk_26",
+        "Abraham Lincoln_chunk_9",
+        "Abraham Lincoln_chunk_10",
+        "Abraham Lincoln_chunk_27"
+      ]
+    },
+    {
+      "query": "What was the Apollo 11 mission and why is it important?",
+      "precision": 0.2,
+      "reciprocal_rank": 0.5,
+      "ndcg@5": 0.2802412438326486,
+      "retrieved": [
+        "Apollo 11_chunk_4",
+        "Apollo 11_chunk_0",
+        "Apollo program_chunk_21",
+        "Apollo program_chunk_22",
+        "Apollo 11_chunk_15"
+      ]
+    },
+    {
+      "query": "Who was Albert Einstein and what did he discover?",
+      "precision": 0.6,
+      "reciprocal_rank": 1.0,
+      "ndcg@5": 0.7585289645123833,
+      "retrieved": [
+        "Albert Einstein_chunk_0",
+        "Albert Einstein_chunk_2",
+        "Albert Einstein_chunk_5",
+        "Albert Einstein_chunk_3",
+        "Albertus Magnus_chunk_0"
+      ]
+    },
+    {
+      "query": "What is Apple Inc. known for?",
+      "precision": 0.4,
+      "reciprocal_rank": 1.0,
+      "ndcg@5": 0.6662577939453029,
+      "retrieved": [
+        "Apple Inc._chunk_0",
+        "Apple Inc._chunk_6",
+        "Apple Inc._chunk_1",
+        "Apple I_chunk_0",
+        "Apple Inc._chunk_18"
+      ]
+    },
+    {
+      "query": "What was daily life like in Ancient Egypt?",
+      "precision": 0.4,
+      "reciprocal_rank": 0.25,
+      "ndcg@5": 0.3551864256434151,
+      "retrieved": [
+        "Ancient Egypt_chunk_16",
+        "Ancient Egypt_chunk_27",
+        "Ancient Egypt_chunk_15",
+        "Ancient Egypt_chunk_1",
+        "Ancient Egypt_chunk_0"
+      ]
+    },
+    {
+      "query": "Where is Afghanistan and what is it known for?",
+      "precision": 0.4,
+      "reciprocal_rank": 1.0,
+      "ndcg@5": 0.7026745117069374,
+      "retrieved": [
+        "Afghanistan_chunk_0",
+        "Afghans_chunk_2",
+        "Afghanistan_chunk_1",
+        "Afghanistan_chunk_30",
+        "Afghanistan_chunk_25"
+      ]
+    },
+    {
+      "query": "What are alkali metals and their properties?",
+      "precision": 0.2,
+      "reciprocal_rank": 1.0,
+      "ndcg@5": 0.4441718626302019,
+      "retrieved": [
+        "Alkali metal_chunk_0",
+        "Alkali metal_chunk_6",
+        "Alkali metal_chunk_7",
+        "Alkali metal_chunk_13",
+        "Alkali metal_chunk_26"
+      ]
+    },
+    {
+      "query": "What are amphibians and how do they live?",
+      "precision": 0.2,
+      "reciprocal_rank": 1.0,
+      "ndcg@5": 0.4744233757201067,
+      "retrieved": [
+        "Amphibian_chunk_0",
+        "Amphibian_chunk_5",
+        "Amphibian_chunk_6",
+        "Amphibian_chunk_15",
+        "Anatomy_chunk_5"
+      ]
+    },
+    {
+      "query": "What is the city of Amsterdam known for?",
+      "precision": 0.4,
+      "reciprocal_rank": 1.0,
+      "ndcg@5": 0.7026745117069374,
+      "retrieved": [
+        "Amsterdam_chunk_0",
+        "Amsterdam_chunk_13",
+        "Amsterdam_chunk_1",
+        "Amsterdam_chunk_4",
+        "Amsterdam_chunk_20"
+      ]
+    },
+    {
+      "query": "Who are ABBA and what music did they create?",
+      "precision": 0.0,
+      "reciprocal_rank": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved": [
+        "ABBA_chunk_26",
+        "ABBA_chunk_28",
+        "ABBA_chunk_20",
+        "ABBA_chunk_29",
+        "ABBA_chunk_15"
+      ]
+    },
+    {
+      "query": "Who was Alexander the Great and what did he conquer?",
+      "precision": 0.2,
+      "reciprocal_rank": 1.0,
+      "ndcg@5": 0.4441718626302019,
+      "retrieved": [
+        "Alexander the Great_chunk_0",
+        "Alexander the Great_chunk_18",
+        "Alexander the Great_chunk_11",
+        "Alexander the Great_chunk_29",
+        "Alexander the Great_chunk_6"
+      ]
+    },
+    {
+      "query": "What happened during the American Civil War?",
+      "precision": 0.4,
+      "reciprocal_rank": 1.0,
+      "ndcg@5": 0.6662577939453029,
+      "retrieved": [
+        "American Civil War_chunk_1",
+        "American Civil War_chunk_38",
+        "American Civil War_chunk_0",
+        "American Civil War_chunk_28",
+        "American Civil War_chunk_12"
+      ]
+    },
+    {
+      "query": "What was the American Revolutionary War about?",
+      "precision": 0.2,
+      "reciprocal_rank": 0.3333333333333333,
+      "ndcg@5": 0.22208593131510096,
+      "retrieved": [
+        "American Revolutionary War_chunk_37",
+        "American Revolutionary War_chunk_38",
+        "American Revolutionary War_chunk_0",
+        "American Revolutionary War_chunk_20",
+        "American Revolution_chunk_33"
+      ]
+    },
+    {
+      "query": "What is the geography and culture of Albania?",
+      "precision": 0.4,
+      "reciprocal_rank": 0.5,
+      "ndcg@5": 0.4684194960971464,
+      "retrieved": [
+        "Albania_chunk_26",
+        "Albania_chunk_0",
+        "Albania_chunk_30",
+        "Albanians_chunk_10",
+        "Albania_chunk_2"
+      ]
+    },
+    {
+      "query": "What are the main features of Alaska?",
+      "precision": 0.2,
+      "reciprocal_rank": 0.3333333333333333,
+      "ndcg@5": 0.2635029418901015,
+      "retrieved": [
+        "Alaska_chunk_7",
+        "Alaska_chunk_6",
+        "Alaska_chunk_0",
+        "Southeast Alaska_chunk_0",
+        "Alaska_chunk_8"
+      ]
+    },
+    {
+      "query": "Who was Alfred Hitchcock and what films did he direct?",
+      "precision": 0.0,
+      "reciprocal_rank": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved": [
+        "Alfred Hitchcock_chunk_23",
+        "Alfred Hitchcock_chunk_24",
+        "Alfred Hitchcock_chunk_27",
+        "Alfred Hitchcock_chunk_20",
+        "Alfred Hitchcock_chunk_12"
+      ]
+    },
+    {
+      "query": "What is the history of Algeria?",
+      "precision": 0.4,
+      "reciprocal_rank": 0.3333333333333333,
+      "ndcg@5": 0.4148156619640245,
+      "retrieved": [
+        "Algeria_chunk_25",
+        "Algeria_chunk_9",
+        "Algeria_chunk_0",
+        "Algeria_chunk_1",
+        "Algeria_chunk_10"
+      ]
+    },
+    {
+      "query": "What is the Apollo program by NASA?",
+      "precision": 0.0,
+      "reciprocal_rank": 0.0,
+      "ndcg@5": 0.0,
+      "retrieved": [
+        "Apollo program_chunk_22",
+        "Apollo program_chunk_21",
+        "Apollo program_chunk_1",
+        "Apollo program_chunk_20",
+        "Apollo program_chunk_0"
+      ]
+    },
+    {
+      "query": "What is an amphibian life cycle?",
+      "precision": 0.2,
+      "reciprocal_rank": 0.2,
+      "ndcg@5": 0.13591580371299475,
+      "retrieved": [
+        "Amphibian_chunk_14",
+        "Amphibian_chunk_5",
+        "Amphibian_chunk_0",
+        "Amphibian_chunk_18",
+        "Amphibian_chunk_2"
+      ]
+    },
+    {
+      "query": "What inventions or ideas is Albert Einstein famous for?",
+      "precision": 0.4,
+      "reciprocal_rank": 0.25,
+      "ndcg@5": 0.25163969022324284,
+      "retrieved": [
+        "Albert Einstein_chunk_0",
+        "Albert Einstein_chunk_27",
+        "Albert Einstein_chunk_5",
+        "Albert Einstein_chunk_4",
+        "Albert Einstein_chunk_2"
+      ]
+    },
+    {
+      "query": "What products does Apple Inc. produce?",
+      "precision": 0.2,
+      "reciprocal_rank": 0.2,
+      "ndcg@5": 0.18353201471501096,
+      "retrieved": [
+        "Apple Inc._chunk_0",
+        "Apple Inc._chunk_6",
+        "Apple Inc._chunk_14",
+        "Apple Inc._chunk_20",
+        "Apple Inc._chunk_1"
+      ]
+    }
+  ]
+}

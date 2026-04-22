@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+.env
+
+# Data (large files)
+data/raw/
+data/processed/
+data/embeddings/
+data/index/*.faiss
+data/index/*.pkl
+
+# Models
+models/
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+.continue/

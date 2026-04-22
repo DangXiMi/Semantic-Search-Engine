@@ -1,0 +1,358 @@
+[
+  {
+    "query": "machine learning",
+    "relevant_docs": [
+      {"id": "Artificial intelligence_chunk_2", "relevance": 3},
+      {"id": "Machine learning_chunk_0", "relevance": 3},
+      {"id": "Algorithm_chunk_1", "relevance": 2}
+    ]
+  },
+  {
+    "query": "capital of France",
+    "relevant_docs": [
+      {"id": "Paris_chunk_0", "relevance": 3},
+      {"id": "France_chunk_3", "relevance": 2}
+    ]
+  },
+  {
+    "query": "How was Abraham Lincoln educated?",
+    "relevant_docs": [
+      {"id": "Abraham Lincoln_chunk_2", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_4", "relevance": 2},
+      {"id": "Abraham Lincoln_chunk_1", "relevance": 1}
+    ]
+  },
+  {
+    "query": "Who were Abraham Lincoln's family members and children?",
+    "relevant_docs": [
+      {"id": "Abraham Lincoln_chunk_3", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_2", "relevance": 2},
+      {"id": "Abraham Lincoln_chunk_1", "relevance": 2}
+    ]
+  },
+  {
+    "query": "What jobs did Abraham Lincoln have before becoming a lawyer?",
+    "relevant_docs": [
+      {"id": "Abraham Lincoln_chunk_4", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_2", "relevance": 2},
+      {"id": "Abraham Lincoln_chunk_6", "relevance": 1}
+    ]
+  },
+  {
+    "query": "What was Abraham Lincoln's early political career like?",
+    "relevant_docs": [
+      {"id": "Abraham Lincoln_chunk_4", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_5", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_7", "relevance": 2}
+    ]
+  },
+  {
+    "query": "What were Abraham Lincoln's views on slavery?",
+    "relevant_docs": [
+      {"id": "Abraham Lincoln_chunk_4", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_5", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_7", "relevance": 3}
+    ]
+  },
+  {
+    "query": "How did Abraham Lincoln become a lawyer?",
+    "relevant_docs": [
+      {"id": "Abraham Lincoln_chunk_4", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_5", "relevance": 2},
+      {"id": "Abraham Lincoln_chunk_6", "relevance": 2}
+    ]
+  },
+  {
+    "query": "What role did Abraham Lincoln play in the Black Hawk War?",
+    "relevant_docs": [
+      {"id": "Abraham Lincoln_chunk_4", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_5", "relevance": 1},
+      {"id": "Abraham Lincoln_chunk_2", "relevance": 1}
+    ]
+  },
+  {
+    "query": "What was Abraham Lincoln's legal career known for?",
+    "relevant_docs": [
+      {"id": "Abraham Lincoln_chunk_6", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_5", "relevance": 2},
+      {"id": "Abraham Lincoln_chunk_4", "relevance": 2}
+    ]
+  },
+  {
+    "query": "Who was Mary Todd and what was her relationship with Abraham Lincoln?",
+    "relevant_docs": [
+      {"id": "Abraham Lincoln_chunk_3", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_2", "relevance": 1},
+      {"id": "Abraham Lincoln_chunk_1", "relevance": 1}
+    ]
+  },
+  {
+    "query": "What events influenced Abraham Lincoln's return to politics in the 1850s?",
+    "relevant_docs": [
+      {"id": "Abraham Lincoln_chunk_7", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_5", "relevance": 2},
+      {"id": "Abraham Lincoln_chunk_4", "relevance": 1}
+    ]
+  },
+  {
+    "query": "What personal tragedies did Abraham Lincoln experience?",
+    "relevant_docs": [
+      {"id": "Abraham Lincoln_chunk_3", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_1", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_2", "relevance": 2}
+    ]
+  },
+  {
+    "query": "What was Abraham Lincoln's involvement in the U.S. House of Representatives?",
+    "relevant_docs": [
+      {"id": "Abraham Lincoln_chunk_5", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_6", "relevance": 2},
+      {"id": "Abraham Lincoln_chunk_4", "relevance": 1}
+    ]
+  },
+  {
+    "query": "Where was Abraham Lincoln born and raised?",
+    "relevant_docs": [
+      {"id": "Abraham Lincoln_chunk_1", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_2", "relevance": 2},
+      {"id": "Abraham Lincoln_chunk_3", "relevance": 1}
+    ]
+  },
+  {
+    "query": "What kind of work did Abraham Lincoln do as a young man?",
+    "relevant_docs": [
+      {"id": "Abraham Lincoln_chunk_2", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_4", "relevance": 2},
+      {"id": "Abraham Lincoln_chunk_1", "relevance": 1}
+    ]
+  },
+  {
+    "query": "How did Abraham Lincoln gain popularity as a politician?",
+    "relevant_docs": [
+      {"id": "Abraham Lincoln_chunk_5", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_7", "relevance": 2},
+      {"id": "Abraham Lincoln_chunk_6", "relevance": 2}
+    ]
+  },
+  {
+    "query": "What was Abraham Lincoln's role in debates about slavery expansion?",
+    "relevant_docs": [
+      {"id": "Abraham Lincoln_chunk_7", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_5", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_4", "relevance": 2}
+    ]
+  },
+  {
+    "query": "What challenges did Abraham Lincoln face in his early life?",
+    "relevant_docs": [
+      {"id": "Abraham Lincoln_chunk_1", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_2", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_3", "relevance": 2}
+    ]
+  },
+  {
+    "query": "How did Abraham Lincoln's career shift from manual labor to law?",
+    "relevant_docs": [
+      {"id": "Abraham Lincoln_chunk_4", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_2", "relevance": 2},
+      {"id": "Abraham Lincoln_chunk_6", "relevance": 2}
+    ]
+  },
+  {
+    "query": "What influence did the Kansas-Nebraska Act have on Abraham Lincoln?",
+    "relevant_docs": [
+      {"id": "Abraham Lincoln_chunk_7", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_5", "relevance": 2},
+      {"id": "Abraham Lincoln_chunk_4", "relevance": 1}
+    ]
+  },
+  {
+    "query": "What were Abraham Lincoln's key beliefs and values in politics?",
+    "relevant_docs": [
+      {"id": "Abraham Lincoln_chunk_7", "relevance": 3},
+      {"id": "Abraham Lincoln_chunk_5", "relevance": 2},
+      {"id": "Abraham Lincoln_chunk_6", "relevance": 1}
+    ]
+  },
+  {
+    "query": "What was the Apollo 11 mission and why is it important?",
+    "relevant_docs": [
+      {"id": "Apollo 11_chunk_0", "relevance": 3},
+      {"id": "Apollo 11_chunk_1", "relevance": 3},
+      {"id": "Apollo 11_chunk_2", "relevance": 2},
+      {"id": "Apollo 11_chunk_3", "relevance": 2}
+    ]
+  },
+  {
+    "query": "Who was Albert Einstein and what did he discover?",
+    "relevant_docs": [
+      {"id": "Albert Einstein_chunk_0", "relevance": 3},
+      {"id": "Albert Einstein_chunk_1", "relevance": 3},
+      {"id": "Albert Einstein_chunk_2", "relevance": 2},
+      {"id": "Albert Einstein_chunk_3", "relevance": 2}
+    ]
+  },
+  {
+    "query": "What is Apple Inc. known for?",
+    "relevant_docs": [
+      {"id": "Apple Inc._chunk_0", "relevance": 3},
+      {"id": "Apple Inc._chunk_1", "relevance": 3},
+      {"id": "Apple Inc._chunk_2", "relevance": 2},
+      {"id": "Apple Inc._chunk_3", "relevance": 2}
+    ]
+  },
+  {
+    "query": "What was daily life like in Ancient Egypt?",
+    "relevant_docs": [
+      {"id": "Ancient Egypt_chunk_0", "relevance": 3},
+      {"id": "Ancient Egypt_chunk_1", "relevance": 2},
+      {"id": "Ancient Egypt_chunk_2", "relevance": 2},
+      {"id": "Ancient Egypt_chunk_3", "relevance": 1}
+    ]
+  },
+  {
+    "query": "Where is Afghanistan and what is it known for?",
+    "relevant_docs": [
+      {"id": "Afghanistan_chunk_0", "relevance": 3},
+      {"id": "Afghanistan_chunk_1", "relevance": 2},
+      {"id": "Afghanistan_chunk_2", "relevance": 2},
+      {"id": "Afghanistan_chunk_3", "relevance": 1}
+    ]
+  },
+  {
+    "query": "What are alkali metals and their properties?",
+    "relevant_docs": [
+      {"id": "Alkali metal_chunk_0", "relevance": 3},
+      {"id": "Alkali metal_chunk_1", "relevance": 3},
+      {"id": "Alkali metal_chunk_2", "relevance": 2},
+      {"id": "Alkali metal_chunk_3", "relevance": 2}
+    ]
+  },
+  {
+    "query": "What are amphibians and how do they live?",
+    "relevant_docs": [
+      {"id": "Amphibian_chunk_0", "relevance": 3},
+      {"id": "Amphibian_chunk_1", "relevance": 3},
+      {"id": "Amphibian_chunk_2", "relevance": 2},
+      {"id": "Amphibian_chunk_3", "relevance": 1}
+    ]
+  },
+  {
+    "query": "What is the city of Amsterdam known for?",
+    "relevant_docs": [
+      {"id": "Amsterdam_chunk_0", "relevance": 3},
+      {"id": "Amsterdam_chunk_1", "relevance": 2},
+      {"id": "Amsterdam_chunk_2", "relevance": 2},
+      {"id": "Amsterdam_chunk_3", "relevance": 1}
+    ]
+  },
+  {
+    "query": "Who are ABBA and what music did they create?",
+    "relevant_docs": [
+      {"id": "ABBA_chunk_0", "relevance": 3},
+      {"id": "ABBA_chunk_1", "relevance": 3},
+      {"id": "ABBA_chunk_2", "relevance": 2},
+      {"id": "ABBA_chunk_3", "relevance": 1}
+    ]
+  },
+  {
+    "query": "Who was Alexander the Great and what did he conquer?",
+    "relevant_docs": [
+      {"id": "Alexander the Great_chunk_0", "relevance": 3},
+      {"id": "Alexander the Great_chunk_1", "relevance": 3},
+      {"id": "Alexander the Great_chunk_2", "relevance": 2},
+      {"id": "Alexander the Great_chunk_3", "relevance": 2}
+    ]
+  },
+  {
+    "query": "What happened during the American Civil War?",
+    "relevant_docs": [
+      {"id": "American Civil War_chunk_0", "relevance": 3},
+      {"id": "American Civil War_chunk_1", "relevance": 3},
+      {"id": "American Civil War_chunk_2", "relevance": 2},
+      {"id": "American Civil War_chunk_3", "relevance": 2}
+    ]
+  },
+  {
+    "query": "What was the American Revolutionary War about?",
+    "relevant_docs": [
+      {"id": "American Revolutionary War_chunk_0", "relevance": 3},
+      {"id": "American Revolutionary War_chunk_1", "relevance": 3},
+      {"id": "American Revolutionary War_chunk_2", "relevance": 2},
+      {"id": "American Revolutionary War_chunk_3", "relevance": 2}
+    ]
+  },
+  {
+    "query": "What is the geography and culture of Albania?",
+    "relevant_docs": [
+      {"id": "Albania_chunk_0", "relevance": 3},
+      {"id": "Albania_chunk_1", "relevance": 2},
+      {"id": "Albania_chunk_2", "relevance": 2},
+      {"id": "Albania_chunk_3", "relevance": 1}
+    ]
+  },
+  {
+    "query": "What are the main features of Alaska?",
+    "relevant_docs": [
+      {"id": "Alaska_chunk_0", "relevance": 3},
+      {"id": "Alaska_chunk_1", "relevance": 2},
+      {"id": "Alaska_chunk_2", "relevance": 2},
+      {"id": "Alaska_chunk_3", "relevance": 1}
+    ]
+  },
+  {
+    "query": "Who was Alfred Hitchcock and what films did he direct?",
+    "relevant_docs": [
+      {"id": "Alfred Hitchcock_chunk_0", "relevance": 3},
+      {"id": "Alfred Hitchcock_chunk_1", "relevance": 3},
+      {"id": "Alfred Hitchcock_chunk_2", "relevance": 2},
+      {"id": "Alfred Hitchcock_chunk_3", "relevance": 1}
+    ]
+  },
+  {
+    "query": "What is the history of Algeria?",
+    "relevant_docs": [
+      {"id": "Algeria_chunk_0", "relevance": 3},
+      {"id": "Algeria_chunk_1", "relevance": 2},
+      {"id": "Algeria_chunk_2", "relevance": 2},
+      {"id": "Algeria_chunk_3", "relevance": 1}
+    ]
+  },
+  {
+    "query": "What is the Apollo program by NASA?",
+    "relevant_docs": [
+      {"id": "Apollo_chunk_0", "relevance": 3},
+      {"id": "Apollo_chunk_1", "relevance": 3},
+      {"id": "Apollo_chunk_2", "relevance": 2},
+      {"id": "Apollo_chunk_3", "relevance": 2}
+    ]
+  },
+  {
+    "query": "What is an amphibian life cycle?",
+    "relevant_docs": [
+      {"id": "Amphibian_chunk_1", "relevance": 3},
+      {"id": "Amphibian_chunk_2", "relevance": 2},
+      {"id": "Amphibian_chunk_3", "relevance": 2},
+      {"id": "Amphibian_chunk_4", "relevance": 1}
+    ]
+  },
+  {
+    "query": "What inventions or ideas is Albert Einstein famous for?",
+    "relevant_docs": [
+      {"id": "Albert Einstein_chunk_1", "relevance": 3},
+      {"id": "Albert Einstein_chunk_2", "relevance": 3},
+      {"id": "Albert Einstein_chunk_3", "relevance": 2},
+      {"id": "Albert Einstein_chunk_4", "relevance": 1}
+    ]
+  },
+  {
+    "query": "What products does Apple Inc. produce?",
+    "relevant_docs": [
+      {"id": "Apple Inc._chunk_1", "relevance": 3},
+      {"id": "Apple Inc._chunk_2", "relevance": 3},
+      {"id": "Apple Inc._chunk_3", "relevance": 2},
+      {"id": "Apple Inc._chunk_4", "relevance": 1}
+    ]
+  }
+
+]
