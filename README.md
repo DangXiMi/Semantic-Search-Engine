@@ -18,8 +18,6 @@ This project implements a full-stack semantic search system designed to surface 
 
 ![Search Interface](assets/Demo2.png)
 
-*Placeholder for evaluation dashboard (MRR, NDCG, query‑level analysis).*
-
 ---
 
 ## Key Features
