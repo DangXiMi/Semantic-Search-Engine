@@ -15,7 +15,7 @@ class TextCleaner:
         Steps:
         1. Replace multiple newlines with single space.
         2. Remove excessive whitespace (spaces/tabs).
-        3. (Optional) Remove HTML tags if present.
+        3. Remove HTML tags if present.
         4. Return stripped string.
         """
         # Remove multiple newlines with single space
@@ -61,7 +61,7 @@ class Chunker:
 
     def _sliding_window(self, tokens: List[str]) -> Iterator[List[str]]:
         """
-        TODO: Core logic generator.
+        Core logic generator.
         Yields windows of tokens based on self.chunk_size and self.overlap.
         """
         if not tokens or self.chunk_size <= 0 or self.overlap < 0:

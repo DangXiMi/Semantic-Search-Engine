@@ -13,14 +13,13 @@ venv/
 ENV/
 .env
 
-# Data (large files)
+# Data (ignore raw, processed, embeddings, and index)
 data/raw/
 data/processed/
 data/embeddings/
-data/index/*.faiss
-data/index/*.pkl
+data/index/
 
-# Models
+# Models (ONNX & tokenizer files are large; regenerate as needed)
 models/
 *.pt
 *.pth
@@ -45,4 +44,5 @@ models/
 .DS_Store
 Thumbs.db
 
+# Continue extension 
 .continue/
