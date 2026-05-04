@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.env
+
+# Data (large files: they will be mounted from host)
+data/raw/
+data/processed/
+data/embeddings/
+data/index/
+
+# Models
+models/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+# Continue
+.continue

@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data          # Map local data/ to container's /app/data
+    environment:
+      - MODEL_NAME=all-MiniLM-L6-v2
+      - INDEX_PATH=/app/data/index/index.faiss   # Adjust if needed

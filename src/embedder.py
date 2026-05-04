@@ -6,10 +6,10 @@ from src.config import settings
 import json
 
 class Embedder:
-    def __init__(self, model_name: str = None):
+    def __init__(self, model_name: str = None, device = 'cuda'):
         self.model_name = model_name or settings.MODEL_NAME
         # Load SentenceTransformer model (CPU/GPU auto-detect)
-        self.model = SentenceTransformer(self.model_name)
+        self.model = SentenceTransformer(self.model_name, device)
         
     def encode(self, texts: List[str], batch_size: int = 32, show_progress: bool = True) -> np.ndarray:
         """

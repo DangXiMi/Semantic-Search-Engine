@@ -30,7 +30,7 @@ def main():
     
     # PyTorch benchmark
     print("\n--- PyTorch Model ---")
-    pytorch_embedder = Embedder()
+    pytorch_embedder = Embedder(device = 'cpu')
     pytorch_time, pytorch_tp = measure_throughput(pytorch_embedder, texts, batch_size=32)
     print(f"Time: {pytorch_time:.2f}s | Throughput: {pytorch_tp:.1f} texts/s")
     
