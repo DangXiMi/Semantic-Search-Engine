@@ -39,15 +39,15 @@ This project implements a full‑stack semantic search system that retrieves rel
 
 ```mermaid
 flowchart TD
-    A[simplewiki_10k.jsonl] --> B[Streaming JSONL + Title‑aware Chunking + SHA256 Dedup]
-    B --> C[Batch Embedding via all-MiniLM-L6-v2 (384‑dim)]
-    C --> D[L2 Normalisation + FAISS IndexFlatIP]
-    D --> E[FAISS index + metadata saved to disk]
-    E --> F[FastAPI (lifespan loads index once)]
-    F --> G[Streamlit UI]
-    F --> H[Evaluation: MRR = 0.49, NDCG@5 = 0.35]
-Detailed flow: Raw JSONL → streaming chunking → batch embedding (PyTorch or ONNX) → FAISS index + metadata → FastAPI service → UI / evaluation.
+    A["simplewiki_10k.jsonl"] --> B["Streaming JSONL + Title-aware Chunking + SHA256 Dedup"]
+    B --> C["Batch Embedding via all-MiniLM-L6-v2 (384-dim)"]
+    C --> D["L2 Normalisation + FAISS IndexFlatIP"]
+    D --> E["FAISS index and metadata saved to disk"]
+    E --> F["FastAPI (lifespan loads index once)"]
+    F --> G["Streamlit UI"]
+    F --> H["Evaluation: MRR 0.49, NDCG@5 0.35"]
 ```
+Detailed flow: Raw JSONL → streaming chunking → batch embedding (PyTorch or ONNX) → FAISS index + metadata → FastAPI service → UI / evaluation.
 ---
 
 ## Tech Stack
@@ -117,7 +117,7 @@ text
 ### Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/DangXiMi/Semantic-Search-Engine
 cd semantic-search-engine
 ```
 
@@ -134,7 +134,7 @@ pip install -r requirements.txt
 This script will download data, build chunks, embeddings, and index.
 
 ```bash
-python scripts/setup.py
+python -m scripts.setup
 ```
 
 This may take a few minutes. All generated files go into the `data/` directory.
@@ -172,11 +172,9 @@ The slight variation in INT8 scores is within normal statistical noise – no si
 |-----------------------|--------|----------------------|-----------------------------------|
 | PyTorch (GPU)         | CUDA   | ~340                 | FastAPI default                   |
 | ONNX FP32 (GPU)       | CUDA   | ~347                 | Slight improvement                |
-| ONNX FP32 (CPU)       | CPU    | ~44                  | Baseline for CPU-only             |
-| ONNX INT8 (CPU)       | CPU    | ~48.2                | Best performance on CPU with INT8 |
+| ONNX FP32 (CPU)       | CPU    | ~26                  | Baseline for CPU-only             |
+| ONNX INT8 (CPU)       | CPU    | ~44.4                | Best performance on CPU with INT8 |
 
-
-(Fill in the actual INT8 CPU throughput from your benchmark.)
 
 ### API Latency
 Measured over 500 requests (10 diverse queries, each run 50 times).  
