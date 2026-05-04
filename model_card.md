@@ -23,8 +23,8 @@
 | Backend | Throughput (texts/s) |
 |---------|-----------------------|
 | PyTorch (GPU) | ~340 |
-| ONNX FP32 (CPU) | 44.5 |
-| ONNX INT8 (CPU) | 48.2 |
+| ONNX FP32 (CPU) | ~26 |
+| ONNX INT8 (CPU) | ~44 |
 
 ## Limitations & Known Weaknesses
 - **Struggles with abstract or opinion-based queries:** e.g., "What were Abraham Lincoln's views on slavery?" returned general Lincoln content instead of the specific discussion.
