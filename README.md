@@ -138,14 +138,23 @@ python -m scripts.setup
 ```
 
 This may take a few minutes. All generated files go into the `data/` directory.
+### Run the Arize Phoenix Observability
+- Keep track traces
+```bash
+python -m phoenix.server.main serve
+```
 
 ### Start the API with Docker
 
 ```bash
 docker compose up
 ```
+or locally
+```bash
+uvicorn api.app:app --reload --host 0.0.0.0 --port 8000
+```
 
-The API is now available at [http://localhost:8000](http://localhost:8000).
+The API is now available at [http://localhost:8000/docs](http://localhost:8000).
 
 (Optional) Launch the Streamlit UI in a separate terminal:
 

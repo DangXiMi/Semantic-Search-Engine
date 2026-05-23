@@ -20,6 +20,11 @@ class Settings(BaseSettings):
 
     # METADATA_FILE as INDEX_DIR / "???.pkl"
     METADATA_FILE: Path = Path(INDEX_DIR)/"metadata.pkl"
+    
+    GEMINI_API_KEY: str
+    LLM_PROVIDER: str ="ollama"
+    GEMINI_MODEL: str = "gemini-2.5-flash"
+    GEMINI_JUDGE_MODEL: str = "gemini-2.0-flash"
 
     class Config:
         env_file = ".env"

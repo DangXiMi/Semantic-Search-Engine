@@ -46,3 +46,5 @@ Thumbs.db
 
 # Continue extension 
 .continue/
+
+.env.example

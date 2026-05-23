@@ -8,3 +8,5 @@ services:
     environment:
       - MODEL_NAME=all-MiniLM-L6-v2
       - INDEX_PATH=/app/data/index/index.faiss   # Adjust if needed
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - LLM_PROVIDER=${LLM_PROVIDER:-ollama}
