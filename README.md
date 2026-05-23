@@ -46,6 +46,7 @@ flowchart TD
     E --> F["FastAPI (lifespan loads index once)"]
     F --> G["Streamlit UI"]
     F --> H["Evaluation: MRR 0.49, NDCG@5 0.35"]
+    F --> I["Observability: OpenTelemetry → Arize Phoenix"]
 ```
 Detailed flow: Raw JSONL → streaming chunking → batch embedding (PyTorch or ONNX) → FAISS index + metadata → FastAPI service → UI / evaluation.
 ---
@@ -60,7 +61,7 @@ Detailed flow: Raw JSONL → streaming chunking → batch embedding (PyTorch or 
 | Frontend     | Streamlit, requests                       |
 | Data Processing | Streaming JSONL, custom chunker, hashlib  |
 | Deployment   | Docker, Docker Compose                    |
-| Observability  | (coming) Arize Phoenix / OpenTelemetry    |
+| Observability  |  Arize Phoenix / OpenTelemetry    |
 | Evaluation   | Hand-labeled relevance judgments, MRR, NDCG@5 |
 
 ---
@@ -69,9 +70,10 @@ Detailed flow: Raw JSONL → streaming chunking → batch embedding (PyTorch or 
 ## Project Structure
 ```markdown
 text
+text
 .
 ├── api/                           # FastAPI application
-│   ├── app.py                     # Lifespan, CORS, endpoints
+│   ├── app.py                     # Lifespan, CORS, endpoints, OTEL instrumentation
 │   ├── dependencies.py            # Retriever singleton
 │   └── models.py                  # Pydantic schemas
 ├── src/                           # Core library
@@ -155,6 +157,16 @@ streamlit run ui/streamlit_app.py
 
 Then open [http://localhost:8501](http://localhost:8501).
 
+### View Traces with Phoenix
+Start the Phoenix server in a separate terminal:
+```
+python -m phoenix.server.main serve
+```
+After sending a few search requests, open http://localhost:6006 to inspect traces, latency, and custom attributes (query text, top score).
+
+
+
+
 ---
 
 ## Performance & Evaluation
@@ -191,6 +203,15 @@ Includes embedding generation + FAISS search + FastAPI overhead.
 
 Benchmark script: `scripts/benchmark_latency.py`
 
+### Observability (OpenTelemetry + Arize Phoenix)
+Every search request is traced with:
+- Query text and k
+- Top result title and score
+- Number of results returned
+- Request latency
+
+The traces are exported to a local Phoenix dashboard (http://localhost:6006) for visualisation and analysis. This enables real‑time debugging of individual requests and trend monitoring over time.
+
 ---
 
 ## Key Engineering Decisions
@@ -216,6 +237,9 @@ Enables deployment on CPU-only machines with up to 4× speed improvement via INT
 **Docker & One-Command Setup**
 The project is immediately reproducible. `docker compose up` launches the API with the pre-built index.
 
+**Observability with Phoenix**
+Traces provide full visibility into every search request without changing business logic. OpenTelemetry instrumentation is industry‑standard and can be swapped to any backend (Jaeger, Grafana, Datadog) without code changes.
+
 ## Future Improvements
 
 | Area              | Next Step                                                                 |
@@ -240,3 +264,4 @@ For model details, limitations, and latency profiles, see [model_card.md](model_
 - **Model optimisation** – ONNX export, INT8 quantisation, and benchmarking demonstrate MLOps maturity.
 - **Clean separation** – modular codebase that’s easy to test, extend, or hand over to a team.
 - **Documentation** – exhaustive README, model card, and inline comments reflect professional communication standards.
+- **Observability built‑in** – OpenTelemetry tracing gives instant visibility into production behaviour.
