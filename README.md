@@ -157,6 +157,12 @@ streamlit run ui/streamlit_app.py
 
 Then open [http://localhost:8501](http://localhost:8501).
 
+(Optional) Start the FastAPI server locally:
+```bash
+uvicorn api.app:app --reload
+```
+The API will be available at http://localhost:8000
+
 ### View Traces with Phoenix
 Start the Phoenix server in a separate terminal:
 ```
