@@ -6,3 +6,6 @@ streamlit==1.37.0
 pydantic-settings==2.5.0
 tqdm==4.66.0
 numpy==1.26.0
+arize-phoenix==6.1.0
+opentelemetry-exporter-otlp==1.38.0
+opentelemetry-instrumentation-fastapi==0.59b0
