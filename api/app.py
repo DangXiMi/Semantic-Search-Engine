@@ -10,6 +10,22 @@ from src.retriever import Retriever
 
 from fastapi.middleware.cors import CORSMiddleware
 
+from opentelemetry import trace
+from opentelemetry.exporter.otlp.proto.http.trace_exporter import OTLPSpanExporter
+from opentelemetry.sdk.trace import TracerProvider
+from opentelemetry.sdk.trace.export import SimpleSpanProcessor
+from opentelemetry.instrumentation.fastapi import FastAPIInstrumentor
+from opentelemetry.trace import get_current_span
+
+# Phoenix OTLP endpoint – adjust for Docker vs local
+PHOENIX_ENDPOINT = "http://127.0.0.1:6006/v1/traces"
+
+trace_provider = TracerProvider()
+trace_provider.add_span_processor(
+    SimpleSpanProcessor(OTLPSpanExporter(endpoint=PHOENIX_ENDPOINT))
+)
+trace.set_tracer_provider(trace_provider)
+
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -20,17 +36,14 @@ async def lifespan(app: FastAPI):
     Lifespan event handler: runs at startup and shutdown.
     This is the correct place to load heavy resources.
     """
-    # Startup: load retriever (model + index)
     logger.info("Loading embedding model and FAISS index...")
-    retriever = get_retriever()  # Triggers the cache load
+    retriever = get_retriever()  
     app.state.retriever = retriever
     logger.info("Ready to serve requests.")
     
-    yield  # Server is running here
+    yield  
     
-    # Shutdown: cleanup (if needed)
     logger.info("Shutting down...")
-    # FAISS index and model will be garbage collected
 
 # Create FastAPI app with lifespan
 app = FastAPI(
@@ -39,6 +52,8 @@ app = FastAPI(
     version="1.0.0",
     lifespan=lifespan,
 )
+
+FastAPIInstrumentor.instrument_app(app)
 
 app.add_middleware(
     CORSMiddleware,
@@ -61,15 +76,23 @@ async def search(
     """
     Perform semantic search over the indexed Wikipedia corpus.
     """
+    span = get_current_span()
+    span.set_attribute("search.query", request.query)
+    span.set_attribute("search.k", request.k)
+    
     try:
-        logger.info(f"Search query: '{request.query}' (k={request.k})")
         results = retriever.search(request.query, k=request.k)
-        
+        span.set_attribute("search.num_results", len(results))
+        if results:
+            span.set_attribute("search.top_score", results[0]["score"])
+            span.set_attribute("search.top_title", results[0]["title"])
         return SearchResponse(
             query=request.query,
             results=results,
             total=len(results)
         )
     except Exception as e:
+        span.set_attribute("error", True)
+        span.set_attribute("error.message", str(e))
         logger.error(f"Search failed: {str(e)}")
         raise HTTPException(status_code=500, detail="Internal server error")
